@@ -31,7 +31,7 @@ public class AnimatedMenuTest {
             driver = new ChromeDriver();
         }
         else{
-            System.out.println("NULL");
+            System.out.println("Param illisible ou incorrect");
         }
         //driver = new FirefoxDriver();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
