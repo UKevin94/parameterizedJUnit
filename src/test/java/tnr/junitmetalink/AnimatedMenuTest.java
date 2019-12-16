@@ -17,9 +17,10 @@ public class AnimatedMenuTest {
     WebDriverWait wait;
 
     @BeforeEach
-    public void setUp(){
+    public void setUp() throws InterruptedException {
         String paramBrowser = TFParamService.getInstance().getParam("DS_browser");
         String paramWebsite = TFParamService.getInstance().getParam("DS_url", "https://codepen.io/knyttneve/pen/LKrGBy");
+        Thread.sleep(2000);
         if(paramBrowser.equals("firefox"))
         {
             System.out.println("it's ff");
