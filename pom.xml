@@ -33,7 +33,7 @@
         <maven.compiler.plugin>3.1</maven.compiler.plugin>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <galaxia.annotation.version>1.0.1.RC2</galaxia.annotation.version>
+        <galaxia.annotation.version>1.0.1.RC1</galaxia.annotation.version>
     </properties>
     
     <dependencies>
@@ -60,7 +60,7 @@
 		<dependency>
 			<groupId>org.squashtest.ta.galaxia</groupId>
 			<artifactId>tf-param-service</artifactId>
-			<version>1.0.0.RC2</version>
+			<version>1.0.0.RC1</version>
 		</dependency>
     </dependencies>    
   
