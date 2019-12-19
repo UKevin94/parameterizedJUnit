@@ -18,8 +18,11 @@ public class AnimatedMenuTest {
 
     @BeforeEach
     public void setUp() throws InterruptedException {
+        Thread.sleep(2000);
         String paramBrowser = TFParamService.getInstance().getParam("DS_browser");
+        Thread.sleep(2000);
         String paramWebsite = TFParamService.getInstance().getParam("DS_url", "https://codepen.io/knyttneve/pen/LKrGBy");
+        Thread.sleep(2000);
         if(paramBrowser.equals("firefox"))
         {
             System.out.println("it's ff");
