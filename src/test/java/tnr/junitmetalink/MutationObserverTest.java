@@ -25,7 +25,7 @@ public class MutationObserverTest {
         driver.get("https://codepen.io/dayvidwhy/pen/egdZyY");
     }
 
-    @TFMetadata(key = "linked-TC", value = "489ec210-9b9f-48e3-b565-7f15bf4339a3")
+    @TFMetadata(key = "linked-TC", value = "toto")
     @Test
     public void testMutation(){
         driver.switchTo().frame(driver.findElement(By.xpath("//iframe[@id='result']")));
