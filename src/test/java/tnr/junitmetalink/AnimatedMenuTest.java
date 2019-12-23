@@ -40,7 +40,7 @@ public class AnimatedMenuTest {
         //"url": "https://codepen.io/knyttneve/pen/LKrGBy",
     }
 
-    @TFMetadata(key = "linked-TC", value = "3a1216ac-42e4-4a7f-a283-3f3e5c8c629a")
+    @TFMetadata(key = "linked-TC", value = "3f487b46-34e2-472a-bac1-b36feb71801b")
     @DisplayName("MenuTestimonials")
     @Test
     public void testMenuTestimonials(){
@@ -53,7 +53,7 @@ public class AnimatedMenuTest {
         Assertions.assertFalse(style.contains("is-active"), "Le bouton n'a pas été désactivé");
     }
 
-    @TFMetadata(key = "linked-TC", value = "ccc7d78c-d604-45df-89db-718403ccb209")
+    @TFMetadata(key = "linked-TC", value = "ac8f9e31-7b2a-4654-92b4-cd26e3f07b48")
     @DisplayName("MenuBlog")
     @Test
     public void testMenuBlog(){
